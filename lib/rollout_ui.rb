@@ -27,7 +27,7 @@ module RolloutUi
   end
 
   def self.user_name_field
-    @@user_name_field ||= :id
+    @@user_name_field ||= :email
   end
 
   def self.user_class=(user_class)
